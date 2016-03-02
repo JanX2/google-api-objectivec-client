@@ -20,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3DBEE73F1C878CEC0039BBA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F4BC6F21C24C558000C67AE /* GTLCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F4469DB41C40229D00BCFAA1;
+			remoteInfo = GTLiOSCore;
+		};
 		4F4BC6F91C24C559000C67AE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4F4BC6F21C24C558000C67AE /* GTLCore.xcodeproj */;
@@ -181,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				4F4BC6FA1C24C559000C67AE /* GTL.framework */,
+				3DBEE7401C878CEC0039BBA8 /* GTL.framework */,
 				4F4BC6FC1C24C559000C67AE /* GTLiOSUnitTests.xctest */,
 				4F4BC6FE1C24C559000C67AE /* GTLUnitTests.xctest */,
 				4F4BC7001C24C559000C67AE /* OSXDevTool */,
@@ -278,6 +286,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		3DBEE7401C878CEC0039BBA8 /* GTL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTL.framework;
+			remoteRef = 3DBEE73F1C878CEC0039BBA8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		4F4BC6FA1C24C559000C67AE /* GTL.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
